@@ -1,10 +1,20 @@
 import React from 'react'
 
-import { ExampleComponent } from '@stkterry/react-reanim'
+import { Canvas } from '@stkterry/react-reanim';
+import StopStart from './animations/StopStart';
+import Spots from './animations/Spots';
+import Simple from './animations/Simple';
+
 import '@stkterry/react-reanim/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <div id="main">
+    <div id="examples">
+      <StopStart />
+      <Spots />
+      <Simple />
+    </div>
+  </div>
 }
 
 export default App

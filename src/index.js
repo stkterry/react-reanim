@@ -1,6 +1,6 @@
-import React from 'react'
-import styles from './styles.module.css'
+import Reanim from './components/reanim/Reanim';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export default Reanim;
+export { default as Canvas } from './components/reanim/Canvas';
+
+export { default as useWindowDims } from './hooks/useWindowDims';
