@@ -173,6 +173,7 @@ based on window size.
 * Add target frame-rate functionality
 * Add collection of convenient hooks for working with the canvas
 * Implement a context simplification library for drawing
+* Add real tests...
 ## License
 
 MIT © [stkterry](https://github.com/stkterry)
